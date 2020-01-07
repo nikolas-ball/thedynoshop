@@ -1,4 +1,5 @@
 # thedynoshop.github.io
+https://nick-ball.github.io/thedynoshop.github.io/
 
 January 7th, 2020 revision to README doc
 
