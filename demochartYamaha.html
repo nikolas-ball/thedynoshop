@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="//cdnjs.cloudflare.com/ajax/libs/mootools/1.4.5/mootools-core-full-nocompat.js"
+    
+  ></script>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+
+
+      /* style of left side */
+.item {width:350px}
+.item a,.fake a{width:350px;height:575px;top:300px;vertical-align:middle;text-align:center;display:block;text-decoration:none}
+.item a:hover {color:rgba(255,255,255,0.8)!important;}
+
+#id1 a { color:grey;height:100px;vertical-align:middle;text-align: center;}
+#id1 a:hover,#fakeDiv1 a {color:black;background:#D3D3D3;}
+#id2 a {color:grey }
+#id2 a:hover,#fakeDiv2 a {color:black;background:#D3D3D3;}
+#id3 a { color:grey }
+#id3 a:hover,#fakeDiv3 a { color:black;background:#D3D3D3;}
+#id4 a { color:grey }
+#id4 a:hover,#fakeDiv4 a {color:black;background:#D3D3D3;}
+#id5 a { color:grey }
+#id5 a:hover,#fakeDiv5 a {color:black;background:#D3D3D3;}
+#id6 a { color:grey }
+#id6 a:hover,#fakeDiv6 a {color:black;background:#D3D3D3;}
+#id7 a { color:grey }
+#id7 a:hover,#fakeDiv7 a {color:black;background:#D3D3D3;}
+
+/*right side div and links styling*/
+
+#rightDiv {background-image:url(demochart1.png);position:absolute;left:350px;top:0;height:576px;width:1024px;background-repeat: no-repeat;}
+#rightDiv .region { background:red;opacity:0.5;position:absolute;left:0;top:0;width:60px;height:60px;cursor:pointer }
+
+/*right side region links positioning*/
+
+#rightDiv a#id1match { left:105px;top:445px }
+#rightDiv a#id2match { left:35px;top:105px }
+#rightDiv a#id3match { left:395px;top:310px }
+#rightDiv a#id4match { left:855px;top:220px }
+#rightDiv a#id5match { left:690px;top:140px }
+#rightDiv a#id6match { left:855px;top:100px }
+#rightDiv a#id7match { left:855px;top:380px }
+/*left link hover right side change*/
+
+#id1:hover ~ #rightDiv a#id1match { background:grey;opacity: 0.7; }
+#id2:hover ~ #rightDiv a#id2match { background:grey;opacity: 0.7; }
+#id3:hover ~ #rightDiv a#id3match { background:grey;opacity: 0.7; }
+#id4:hover ~ #rightDiv a#id4match { background:grey;opacity: 0.7; }
+#id5:hover ~ #rightDiv a#id5match { background:grey;opacity: 0.7; }
+#id6:hover ~ #rightDiv a#id6match { background:grey;opacity: 0.7; }
+#id7:hover ~ #rightDiv a#id7match { background:grey;opacity: 0.7; }
+
+
+/*right link hover left side change*/
+.fake {position:absolute;left:-9999px;top:0}
+.fake a {color:#fff}
+#id1match:hover {background:grey;opacity: 0.7;}
+#id1match:hover ~ #fakeDiv1 {left:-350px;top:0px}
+#id2match:hover {background:grey;opacity: 0.7;}
+#id2match:hover ~ #fakeDiv2 {left:-350px;top:0px} 
+#id3match:hover {background:grey;opacity:0.7;}
+#id3match:hover ~ #fakeDiv3 {left:-350px;top:0px}
+#id4match:hover {background:grey;opacity:0.7;}
+#id4match:hover ~ #fakeDiv4 {left:-350px;top:0px}
+#id5match:hover {background:grey;opacity:0.7;}
+#id5match:hover ~ #fakeDiv5 {left:-350px;top:0px}
+#id6match:hover {background:grey;opacity:0.7;}
+#id6match:hover ~ #fakeDiv6 {left:-350px;top:0px}
+#id7match:hover {background:grey;opacity:0.7;}
+#id7match:hover ~ #fakeDiv7 {left:-350px;top:0px}
+
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+    window.addEvent('load', function() {
+      
+
+
+
+    });
+
+  //]]></script>
+
+</head>
+<body>
+    <div id="id1" class="item"><a href="#"><strong>Hover Over The Selected<br> Areas With Your Mouse<br> To Learn More!</strong></a></div> 
+<!--     <div id="id2" class="item"><a href="#"> </a></div> 
+    <div id="id3" class="item"><a href="#"> </a></div> 
+    <div id="id4" class="item"><a href="#"> </a></div> -->
+<div id="rightDiv">
+    <a id="id1match" class="region"> </a>
+    <a id="id2match" class="region"> </a>
+    <a id="id3match" class="region"> </a>
+    <a id="id4match" class="region"> </a>
+    <a id="id5match" class="region"> </a>
+    <a id="id6match" class="region"> </a>
+    <a id="id7match" class="region"> </a>
+
+    <div id="fakeDiv1" class="fake"><a href="#"><br><br>At the start of any Dyno chart, the engine outputs a low amount of horsepower and torque. If you have ever wondered why that is, it is because of the nature of internal combustion engines, and how they are designed. The term internal-combustion actually refers to these thousands of tiny controlled explosions occurring each minute, which are of course created by mixing the fuel with oxygen, then igniting the mixture. Each time the fuel ignites is called the combustion, or the power stroke. The heat and expanding gases from this mini-explosion push the piston down in the cylinder, and to keep things simple, that is what causes the rear wheel to move. There is obviously a ton more to it, but the reason that power and torque are lowest at the the lower engine RPMs, is because the engine makes more power as RPMs go up, and vice versa. 
+
+      The good news for you as the customer is that you do not have to worry about all the ins-and-outs of engine work and bikes and how to work on them. Our owner/operator Jake knows literally everything there is to know about engines and motorcycles as a whole. Just tell him what you need done, and he will figure out what comes next.
+      <br><img src="http://www.motogeareugene.com/wp-content/uploads/2018/11/dynojet_1.png" alt="" style="height:60px;width:250px;"></a></div>
+    <div id="fakeDiv2" class="fake"><a href="#">‏‏‎<br><br>The top line in this box represents the red line on the chart. That shows what the bike was making in it's stock form, when the customer first rolled into the shop. As you can see, the lines are quite far from each other on the chart, and there is a significant increase in the numbers for the blue line in this box. That is good, the higher the difference of the before and after, the better. This chart shows that this bike had a huge power gain of roughly thirteen percent throughout the entire rev range, while maintaining full street legality and using ninety-three octane pump gas you can get from anywhere.‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎<img src="http://www.motogeareugene.com/wp-content/uploads/2018/11/dynojet_1.png" alt="" style="height:60px;width:250px;"></a></div>
+    <div id="fakeDiv3" class="fake"><a href="#"><br><br>One especially important take away to understand from this Dyno chart is that the power gained is linear, as in it is mostly uniform throughout the entirety of the rev range. Some performance modifications will help you get a massive power gain at certain areas of the rev range, such as a larger rear wheel sprocket for more torque lower in the RPM range, or the addition of a turbocharger for gains in the powerband. As far as an improvement at any engine speed goes, it is hard to beat an ECU flash and then an engine tune made custom for each bike and its rider. And the charts on our website showcase that for you.<br> 
+      <img src="http://www.motogeareugene.com/wp-content/uploads/2018/11/dynojet_1.png" alt="" style="height:60px;width:250px;"></a></div>
+    <div id="fakeDiv4" class="fake"><a href="#">‏‏‎<br><br>Instead of the powerband ending at nearly peak power like it would after a proper flash and tune preformed here in the shop, the stock power limitations are so bad that this bike would normally be redlining at less than one hundred and thirty horsepower. That means more stress on the rider of the stock bikes, because they have to worry about timing their shifts much quicker, and if they overshoot the powerband on the stock bike without shifting, then they almost immediately lose power that can lead to losing the line if they are in the middle of going into a turn on the track. Less power is never better, and manufacturers only impliment these limitations to be in accordance federal emission laws when the bikes leave the factory.<br>
+    <img src="http://www.motogeareugene.com/wp-content/uploads/2018/11/dynojet_1.png" alt="" style="height:60px;width:250px;"></a></div>
+    <div id="fakeDiv5" class="fake"><a href="#"><br><br>Here is another important area of this chart. As you can see, in the bike's stock form the manufacture essentially cuts the power off at this particular engine speed or RPM. There are a number of ways to do this, a common one is that they will program the bike to limit the fuel that is being injected, or they will limit the spark coming from the sparkplugs in some way. Thankfully, when an ECU flash is preformed on the bike, it will remove any and all restrictions. That way, instead of normally the fun going away around eleven thousand five hundred RPMs, the rider can experience insane power all the way to the redline limiter.<img src="http://www.motogeareugene.com/wp-content/uploads/2018/11/dynojet_1.png" alt="" style="height:60px;width:250px;"></a></div>
+    <div id="fakeDiv6" class="fake"><a href="#"><br><br>Like you can see from the previous highlighted area on the chart, the power certainly does not stop where it used to. The peak horsepower is acheived just a little bit before the redline limiter. This extra addition to the powerband is extremely useful when racing, becuase instead of spending that second of time shifting to get back into that powerband, you stay in it for a longer amount of time in each gear. That means more rapid acceleration in lower gears, as well as a higher speed in lower gears. All of this is beneficial in a race situation. <img src="http://www.motogeareugene.com/wp-content/uploads/2018/11/dynojet_1.png" alt="" style="height:60px;width:250px;"></a></div>
+    <div id="fakeDiv7" class="fake"><a href="#"><br><br>Just like with the horsepower graph, the torque is also normally cut off too early on bikes from the factory. As you can see, before we did any work on this bike is was making very little torque at redline compared to the rest of the powerband. After all the work was done, just like the horsepower, the torque gained was nearly a full twenty foot-pounds at redline. Most people generally think the only thing that really matters for performance on a bike is the horsepower. But torque is what gives that feeling of being pushed down and back into the seat of a bike on a wide open throttle acceleration. More torque is always better because it means you can unlock your machine's full horsepower potential, quicker.<br><img src="http://www.motogeareugene.com/wp-content/uploads/2018/11/dynojet_1.png" alt="" style="height:60px;width:250px;"></a></div>
+</div>
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "gU4sw"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+</body>
+</html>

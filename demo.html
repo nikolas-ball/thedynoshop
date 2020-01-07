@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <title></title>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="googlebot" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <script
+    type="text/javascript"
+    src="//cdnjs.cloudflare.com/ajax/libs/mootools/1.4.5/mootools-core-full-nocompat.js"
+    
+  ></script>
+    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+
+    <link rel="stylesheet" type="text/css" href="/css/result-light.css">
+
+
+  <style id="compiled-css" type="text/css">
+
+
+      /* style of left side */
+.item {width:350px}
+.item a,.fake a{width:350px;height:275px;top:300px;vertical-align:middle;text-align:center;display:block;text-decoration:none}
+.item a:hover {color:rgba(255,255,255,0.8)!important;}
+
+#id1 a { color:grey;height:100px;vertical-align:middle;text-align: center;}
+#id1 a:hover,#fakeDiv1 a {color:black;background:#D3D3D3;}
+#id2 a {color:grey}
+#id2 a:hover,#fakeDiv2 a {color:black;background:#D3D3D3;}
+#id3 a { color:grey }
+#id3 a:hover,#fakeDiv3 a { color:black;background:#D3D3D3;}
+#id4 a { color:grey}
+#id4 a:hover,#fakeDiv4 a {color:black;background:#D3D3D3;}
+
+/*right side div and links styling*/
+
+#rightDiv {background-image:url(https://www.kawasaki.com//Content/uploads/Products/8058/Nav/20ZX1000Y_201GY3DRF1CG_A.199199360.png?w=640);position:absolute;left:350px;top:0;height:375px;width:600px;background-repeat: no-repeat;}
+#rightDiv .region { background:red;opacity:0.5;position:absolute;left:0;top:0;width:60px;height:60px;cursor:pointer }
+
+/*right side region links positioning*/
+
+#rightDiv a#id1match { left:125px;top:40px }
+#rightDiv a#id2match { left:140px;top:185px }
+#rightDiv a#id3match { left:335px;top:230px }
+#rightDiv a#id4match { left:520px;top:260px }
+/*left link hover right side change*/
+
+#id1:hover ~ #rightDiv a#id1match { background:grey;opacity: 0.7; }
+#id2:hover ~ #rightDiv a#id2match { background:grey;opacity: 0.7; }
+#id3:hover ~ #rightDiv a#id3match { background:grey;opacity: 0.7; }
+#id4:hover ~ #rightDiv a#id4match { background:grey;opacity:0.7; }
+
+
+/*right link hover left side change*/
+.fake {position:absolute;left:-9999px;top:0}
+.fake a {color:#fff}
+#id1match:hover {background:grey;opacity: 0.7;}
+#id1match:hover ~ #fakeDiv1 {left:-350px;top:0px}
+#id2match:hover {background:grey;opacity: 0.7;}
+#id2match:hover ~ #fakeDiv2 {left:-350px;top:0px} 
+#id3match:hover {background:grey;opacity:0.7;}
+#id3match:hover ~ #fakeDiv3 {left:-350px;top:0px}
+#id4match:hover {background:grey;opacity:0.7;}
+#id4match:hover ~ #fakeDiv4 {left:-350px;top:0px}
+
+
+  </style>
+
+
+  <!-- TODO: Missing CoffeeScript 2 -->
+
+  <script type="text/javascript">//<![CDATA[
+
+    window.addEvent('load', function() {
+      
+
+
+
+    });
+
+  //]]></script>
+
+</head>
+<body>
+    <div id="id1" class="item"><a href="#"><strong>Hover Over The Selected<br> Areas With Your Mouse<br> To Learn More!</strong></a></div> 
+<!--     <div id="id2" class="item"><a href="#"> </a></div> 
+    <div id="id3" class="item"><a href="#"> </a></div> 
+    <div id="id4" class="item"><a href="#"> </a></div> -->
+<div id="rightDiv">
+    <a id="id1match" class="region"> </a>
+    <a id="id2match" class="region"> </a>
+    <a id="id3match" class="region"> </a>
+    <a id="id4match" class="region"> </a>
+
+    <div id="fakeDiv1" class="fake"><a href="#">‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏
+
+      We specialize in ECU tuning and flashing, to unlock the bike's <strong>true performance</strong>. Not only can we guarantee amazing horsepower gain over a stock ECU, we also can develop a custom tune that suits you and your riding style. If you want better gas mileage at certain speeds or at a certain engine RPM, we can take care of that for you. If you want to adjust the air/fuel ratio to clean up the installation of that slip-on exhuast you did, we can do that for you. 
+      <img src="shop.png" alt="" style="height:100px;width:325px;"></a></div>
+    <div id="fakeDiv2" class="fake"><a href="#">‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎When you’re upgrading your bike for performance, you have a number of options. Whether you decide to do a full system upgrade of your exhaust system, or simply choose a slip-on muffler, we will install it for you quickly so you can get back to what you love - riding the bike.‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎<img src="https://seeklogo.net/wp-content/uploads/2012/10/yoshimura-vector-logo.png" alt="" style="height:125px;width:275px;"></a></div>
+    <div id="fakeDiv3" class="fake"><a href="#">Maybe you already have a powerful bike, and it has already been upgraded and customized to be a beast of a machine both on the track and on the street. Have you ever considered doing something crazy like tuning each cylinder for peak performance, one at a time? Here at <strong><em>The Dyno Shop</em></strong>, that is just another tuesday for us. We are proud of our state of the art tuning equipment. Our Dyno graphs do not lie. 
+      <img src="https://cdn.freebiesupply.com/logos/large/2x/dynojet-logo-png-transparent.png" alt="" style="height:125px;width:300px;"></a></div>
+    <div id="fakeDiv4" class="fake"><a href="#">‏‏‎We have an in-house tire removal and replacement service along with proper balancing of the tires. If you need your suspension dialed in for an upcoming track day, look no furthur. Anything at all you can think about that you might need done to the bike, we can do for you. From throttle cable adjustment, all the way to engine and frame swaps! Please call or email us today for more information, or a quote for any service you need done to your motorcycle.<br>
+    <img src="http://pluspng.com/img-png/bike-race-png-racing-motorbike-transparent-png-image-1432.png" alt="" style="height:100px;width:100px;"></a></div>
+</div>
+
+  
+  <script>
+    // tell the embed parent frame the height of the content
+    if (window.parent && window.parent.parent){
+      window.parent.parent.postMessage(["resultsFrame", {
+        height: document.body.getBoundingClientRect().height,
+        slug: "gU4sw"
+      }], "*")
+    }
+
+    // always overwrite window.name, in case users try to set it manually
+    window.name = "result"
+  </script>
+</body>
+</html>

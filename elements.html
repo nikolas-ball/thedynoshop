@@ -1,0 +1,266 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Contact Us!</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js"></script>
+	</head>
+
+		<div id="cover-spin"></div>
+	<style>
+		#cover-spin {
+    position:fixed;
+    width:100%;
+    left:0;right:0;top:0;bottom:0;
+    background-color: rgba(255,255,255,1.0);
+    z-index:9999;
+    display:block;
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+#cover-spin::after {
+    content:'';
+    display:block;
+    position:absolute;
+    left:48%;top:40%;
+    width:40px;height:40px;
+    border-style:solid;
+    border-color:black;
+    border-top-color:transparent;
+    border-width: 4px;
+    border-radius:50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+	</style>
+
+	<script>
+		function hideLoader() {
+    		$('#cover-spin').hide();
+		}
+
+		$(window).ready(hideLoader);
+
+		// Strongly recommended: Hide loader after 5 seconds, even if the page hasn't finished loading
+		setTimeout(hideLoader, 5 * 1000);</script>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<!-- <a href="index.html" class="logo"><strong>Home</strong></a> -->
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/pages/category/Motorsports-Store/The-Dyno-Shop-537307406746916/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/thedynoshop.oh/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.youtube.com/channel/UCRcqWuOGPSr84fjXR5cXNzA" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+									</ul>
+								</header>
+
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Contact Us Today</h1>
+									</header>
+
+									<!-- Content -->
+										<h2 id="content">Why The Dyno Shop?</h2>
+										<p>Here at our shop, you will experience professionalism like you have never seen before. The owner/operator is named Jake. He runs this shop and he has an extensive background in customer satisfaction first, and motorcycles second. Jake lives, eats and breaths all things motorsports. No matter what your knowledge level is, when you talk about the work you need done on your bike, you will find enjoyment from listening to Jake's detailed explanations of the work that he has done to all sorts of bikes, and the way he will do the work you need. Our shop has an open layout, so you can bring your vehicle by and get a firsthand look at the shop and all of the machinery we have that all serves one purpose - to make your motorcycle better. </p>
+										<div class="row">
+											<div class="col-6 col-12-small">
+												<h3>We don't charge an arm and a leg</h3>
+												<p>Instead of going to the dealership where you got the bike, come to our shop for service and repairs. You will see the cost difference immediately and you will be pleasantly surprised by how much less we charge. You provide the parts, so the only thing we charge for is the cost of labor. In the meantime, you can watch our shop's social media pages for picture updates on your machine while it is being worked on.</p>
+											</div>
+											<div class="col-6 col-12-small">
+												<h3>We are fast & friendly</h3>
+												<p>If you bring in your machine to the shop for an oil change, tire change, and dyno flash and tune all at once, you can expect to be back in the saddle in a few short days. Jake does everything he can to work meticulously on the project in front of him from sunrise to sunset, until it is finished. Once the bike is ready for pickup, you can have any questions about the services preformed answered by in a friendly and understanding manner by Jake himself.</p>
+											</div>
+											 
+
+									<hr class="major" />
+
+
+											<div class="col-6 col-12-medium" style="margin: 0 auto;">
+												<br>
+												<br>
+
+												<!-- Form -->
+													<h3>Request Additional Information or a Quote</h3>
+
+													<form method="POST" action="https://formspree.io/xpzqbegr">
+														<div class="row gtr-uniform">
+															<div class="col-6 col-12-xsmall">
+																<input type="text" name="Customer's Name" id="demo-name" value="" placeholder="Name" />
+															</div>
+															<div class="col-6 col-12-xsmall">
+																<input type="text" name="Phone" id="demo-email" value="" placeholder="Phone" />
+															</div>
+															<div class="col-12 col-12-xsmall">
+																<input type="email" name="Email" id="demo-email" value="" placeholder="Email" />
+															</div>
+															<div class="col-12 col-12-xsmall">
+																<input type="text" name="Year" id="demo-name" value="" placeholder="Year" />
+															</div>
+															<div class="col-12 col-12-xsmall">
+																<input type="text" name="Make" id="demo-name" value="" placeholder="Make" />
+															</div>
+															<div class="col-12 col-12-xsmall">
+																<input type="text" name="Model" id="demo-name" value="" placeholder="Model" />
+															</div>
+															<!-- Break -->
+															<div class="col-12">
+																<select name="Category of Machine" id="demo-category">
+																	<option value="">- Choose Your Vehicle's Category -</option>
+																	<option value="sportbike">Sportbike</option>
+																	<option value="cruiser">Cruiser/Touring (Harley)</option>
+																	<option value="ATV/off road">Off-Road/Track Only Motorcycle</option>
+																	<option value="4wheeler">4 Wheeled ATV</option>
+																	<option value="Other">Other</option>
+																</select>
+															</div>
+														
+															<!-- Break -->
+															<div class="col-6 col-12-small">
+																<input type="checkbox" id="demo-copy" name="Send The Customer An Invoice">
+																<label for="demo-copy">Want An Quote Sheet?</label>
+															</div>
+															<div class="col-6 col-12-small">
+																<input type="checkbox" id="demo-human" name="Am I A Human?">
+																<label for="demo-human">I am a human</label>
+															</div>
+															<!-- Break -->
+															<div class="col-12">
+																<textarea name="Customer Included Message" id="demo-message" placeholder="Enter your message and any additional information we may need!" rows="6"></textarea>
+															</div>
+															<input type="hidden" name="_next" value="//path/index.html" />
+															<input type="text" name="_gotcha" style="display:none" />
+															<!-- Break -->
+															<div class="col-12">
+																<ul class="actions">
+																	<li><input type="submit" value="Send Message" class="primary" /></li>
+																	<li><input type="reset" value="Reset" /></li>
+																</ul>
+															</div>
+
+														<img src="shop.png" style="width:100%;height:100%;">
+														</div>
+													</form>
+
+
+									
+
+<h1>
+
+
+</h1>
+
+<div style="display:none;">
+												<!-- Preformatted Code -->
+													<h3>Preformatted</h3>
+													<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+    print 'Iteration ' + i;
+    deck.shuffle();
+    i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';
+</code></pre></div>
+
+											</div>
+										</div>
+
+								</section>
+
+						</div>
+					</div>
+
+
+
+
+
+
+
+	<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+<!-- 								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+ -->
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li>
+											<span class="opener">Recent Projects</span>
+											<ul>
+												<li><a href="honda.html">Honda</a></li>
+												<li><a href="recents.html">Kawasaki</a></li>
+												<li><a href="suzuki.html">Suzuki</a></li>
+												<li><a href="yamaha.html">Yamaha</a></li>
+												<li><a href="harley.html">Harley Davidson</a></li>
+											</ul>
+										</li>
+										<li><a href="generic.html">More About The Shop</a></li>
+										<li><a href="elements.html">Schedule With Us</a></li>
+								</nav>
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+								<p>We are always available, no days off.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">info@dynoshoptuning.com</a></li>
+										<li class="icon solid fa-phone">(419) 235-2999</li>
+										<li class="icon solid fa-home"><strong>Come visit anytime!</strong><br/>70 Grace Drive<br />
+										Powell, OH 43065</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">©2020 The Dyno Shop - Owned & Operated by Jake Brown. This site was created and maintained by Nick Ball.  </p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>

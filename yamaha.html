@@ -1,0 +1,175 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>The Dyno Shop | Powell, Ohio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="assets/js/jquery.min.js"></script>
+
+	</head>
+		<div id="cover-spin"></div>
+	<style>
+		#cover-spin {
+    position:fixed;
+    width:100%;
+    left:0;right:0;top:0;bottom:0;
+    background-color: rgba(255,255,255,1.0);
+    z-index:9999;
+    display:block;
+}
+
+@-webkit-keyframes spin {
+	from {-webkit-transform:rotate(0deg);}
+	to {-webkit-transform:rotate(360deg);}
+}
+
+@keyframes spin {
+	from {transform:rotate(0deg);}
+	to {transform:rotate(360deg);}
+}
+
+#cover-spin::after {
+    content:'';
+    display:block;
+    position:absolute;
+    left:48%;top:40%;
+    width:40px;height:40px;
+    border-style:solid;
+    border-color:black;
+    border-top-color:transparent;
+    border-width: 4px;
+    border-radius:50%;
+    -webkit-animation: spin .8s linear infinite;
+    animation: spin .8s linear infinite;
+}
+	</style>
+
+	<script>
+		function hideLoader() {
+    		$('#cover-spin').hide();
+		}
+
+		$(window).ready(hideLoader);
+
+		// Strongly recommended: Hide loader after 5 seconds, even if the page hasn't finished loading
+		setTimeout(hideLoader, 5 * 1000);</script>
+
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+		
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<!-- <a href="index.html" class="logo"><strong>Home</strong></a> -->
+									<ul class="icons">
+										<li><a href="https://www.facebook.com/pages/category/Motorsports-Store/The-Dyno-Shop-537307406746916/" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/thedynoshop.oh/?hl=en" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="https://www.youtube.com/channel/UCRcqWuOGPSr84fjXR5cXNzA" class="icon brands fa-youtube"><span class="label">Youtube</span></a></li>
+									</ul>
+								</header>
+
+
+								<section>
+									<header class="major">
+										<h1>2016 Kawasaki Ninja ZX10R</h1>
+										<h3>Interactive Dyno Chart</h3>
+									</header>
+
+									<div class="containers">
+
+									<object width="100%" height="650px" data="demochartYamaha.html"><strong>Sorry, <br>your<br> browser <br>sux :(</strong></object>
+
+
+									</div>
+								</section>
+
+								<section>
+									<header class="main">
+										<h2>After we finished, this was a whole new bike.</h2>
+									</header>
+
+									<span class="image main"><img src="images/img_3360.png" alt="" /></span>
+
+									<blockquote><p style="color: black;">When the customer first brought this bike in, it was bone stock. Naturally, Jake was super excited to tear into it and see how much power could be gained, without a huge cost to the customer. These Ninja liter bikes that are available in America are the most <em>limited</em> version out of anywhere else in the world. The heavy regulations on emissions and exhuast volume that are present in our country are mostly to blame for that.</p>
+									<p style="color: black;">This customer requested some various other work for the bike, not just an increase in power. He had ordered a slip-on exhaust, and he also needed a whole bunch of other odds and ends maintenance. Jake got the bike in on a friday, and he had the entire job complete over the weekend, and even created multiple custom ECU power presets for things like different power settings and lowered fuel consumption. The fifth generation zx10r bikes have the option to switch between Low, Medium, and Full power at any time. Normally, the lowest power mode restricts horsepower on the bike to about sixty percent of full, in all the gears. Jake set up a custom power setting so that in the lowest power mode, only first and second gear were limited, and the rest of the gears could utilize the full horsepower. That made rides around town a lot more manageable, and then the rider can seamlessly transition to highway riding, without having to worry about switching power modes on the fly.</p>
+									<p style="color:black;">As you can see in the interactive dyno chart above, the stock bike made about one hundred and sixty two horsepower to the rear wheel. After Jake worked his magic, with the slip-on install and de-cat, as well as the ECU flash and custom tune, this Ninja is making a full twenty extra horsepower throughout the entire rev range on pump gas, and with the stock air system. If the customer decided they needed even more power, an aftermarket air filter and a race gas tune could easily shoot this bike over two hundred rear-wheel horsepower. To see more pictures of this bike in the shop, check out our <a href="https://www.facebook.com/pages/category/Motorsports-Store/The-Dyno-Shop-537307406746916/">Facebook</a> page.</p></blockquote>
+								</section>
+
+
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+<!-- 								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
+ -->
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Homepage</a></li>
+										<li>
+											<span class="opener">Recent Projects</span>
+											<ul>
+												<li><a href="honda.html">Honda</a></li>
+												<li><a href="recents.html">Kawasaki</a></li>
+												<li><a href="suzuki.html">Suzuki</a></li>
+												<li><a href="yamaha.html">Yamaha</a></li>
+												<li><a href="harley.html">Harley Davidson</a></li>
+											</ul>
+										</li>
+										<li><a href="generic.html">More About The Shop</a></li>
+										<li><a href="elements.html">Schedule With Us</a></li>
+									</ul>
+
+								</nav>
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Get in touch</h2>
+									</header>
+									<p>We are always available, no days off.</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="#">info@dynoshoptuning.com</a></li>
+										<li class="icon solid fa-phone">(419) 235-2999</li>
+										<li class="icon solid fa-home"><strong>Come visit anytime!</strong><br/>70 Grace Drive<br />
+										Powell, OH 43065</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">©2019 The Dyno Shop - Owned & Operated by Jake Brown. This site was created and maintained by Nick Ball.  </p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
