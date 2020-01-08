@@ -134,12 +134,20 @@ input, select, textarea {
 				font-size: 11pt;
 			}
 
+			#banner .mobile p {
+				display: none!important;
+			}
+
 		}
 
 		@media screen and (max-width: 1280px) {
 
 			body, input, select, textarea {
 				font-size: 10pt;
+			}
+
+			#banner .mobile p {
+				display: none!important;
 			}
 
 		}
@@ -161,6 +169,10 @@ input, select, textarea {
   				transform: translateX(-25%);
   				width: auto!important;
   			}
+
+  			#banner .mobile p {
+				display: inline!important;
+			}
 		}
 
 		@media screen and (max-width: 425px) {
@@ -171,6 +183,10 @@ input, select, textarea {
   				transform: translateX(-40%);
   				width: auto!important;
   			}
+
+  			#banner .mobile p {
+				display: inline!important;
+			}
 		}
 
 
@@ -178,6 +194,10 @@ input, select, textarea {
 
 			body, input, select, textarea {
 				font-size: 9pt;
+			}
+
+			#banner .mobile p {
+				display: inline!important;
 			}
 
 		}
