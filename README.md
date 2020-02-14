@@ -14,7 +14,7 @@ As of this first revision, version 0.9, use the link at the top of this file to 
 ## Notable Features
 
 * This site was initially a simple static website template that was transformed by me with the addition of interactive elements and fully responsive aesthetically-pleasing implementations that make it a website that drives buisness to the shop from users on any device.
-* This site features custom interactive images and charts, such as the hover interactions on the homepage or the "Interactive Dyno Charts" that populate for laptop or desktop users. These are uniquely written purely in HTML/CSS with little to no NoLib JS.
+* This site features custom interactive images and charts, such as the hover interactions on the homepage or the "Interactive Dyno Charts" that populate for laptop or desktop users. These are uniquely written purely in HTML/CSS with little to no JS.
 * Contact Submission form uses a method of transmitting inputted customer data to buisness owner's email with no AJAX methodology required on the development side of things. This makes the upkeep and long term maintenance easier on the buisness owner as well as makes the site deployment easier without the need of server side code.
 * Custom css events on certain screensize breakpoints such as hiding features on the pages that are normally available on users using devices with a screen size larger than 1026px wide (for example). Also, using css for unique needs such as: ``transform: translateX(-25%);`` so that large images focus on the important parts of the image at all screen sizes.
 * Placed .svg images strategically for responsiveness and fluidity of viewing on all devices, from small mobile devices to large desktop screens.
