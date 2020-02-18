@@ -13,14 +13,14 @@
 
 	// Breakpoints.
 		breakpoints({
-			xlarge:   [ '1281px',  '1680px' ],
+			xlarge:   [ '1281px',  '1920px' ],
 			large:    [ '981px',   '1280px' ],
 			medium:   [ '737px',   '980px'  ],
 			small:    [ '481px',   '736px'  ],
 			xsmall:   [ '361px',   '480px'  ],
 			xxsmall:  [ null,      '360px'  ],
-			'xlarge-to-max':    '(min-width: 1681px)',
-			'small-to-xlarge':  '(min-width: 481px) and (max-width: 1680px)'
+			'xlarge-to-max':    '(min-width: 1921px)',
+			'small-to-xlarge':  '(min-width: 481px) and (max-width: 1920px)'
 		});
 
 	// Stops animations/transitions until the page has:
@@ -75,6 +75,10 @@
 			$sidebar_inner = $sidebar.children('.inner');
 
 		// Inactive by default on <= large: PS:UPDATE 1-2-2020 this needs work. idk what but something. ***update 1-6-20 - yikes
+			breakpoints.on('max', function() {
+   				 $sidebar.addClass('inactive');
+			});
+	
 			breakpoints.on('xlarge', function() {
    				 $sidebar.addClass('inactive');
 			});
