@@ -1,7 +1,7 @@
 # thedynoshop.github.io
 https://nick-ball.github.io/thedynoshop.github.io/
 
-* *February 18th, 2020 revision to README doc* *
+*February 18th, 2020 revision to README doc*
 
 ~~* *January 7th, 2020 revision* *~~
 
