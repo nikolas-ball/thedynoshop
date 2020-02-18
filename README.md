@@ -3,10 +3,10 @@ https://nick-ball.github.io/thedynoshop.github.io/
 
 *February 18th, 2020 revision to README doc*
 
-~~* *January 7th, 2020 revision* *~~
+~~*January 7th, 2020 revision*~~
 
 # The Dyno Shop v0.9 (Legacy Site)
-As of early 2020 this buisness is now merging and rebranding with another local shop in central Ohio, and a new website is in the early design and development stage that will soon be hosted on this Github account, under a different repo.
+*As of early 2020 this buisness is now merging and rebranding with another local shop in central Ohio, and a new website is in the early design and development stage that will soon be hosted on this Github account, under a different repo.*
 
 Website for motorcycle Dyno Tuning, service, and repair shop based locally in Powell, Oh.
 
