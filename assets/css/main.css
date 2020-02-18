@@ -104,7 +104,7 @@ input, select, textarea {
 	}
 
 	body {
-		background-image: url(http://www.seekgif.com/uploads/light-gray-gradient-background-22.png);
+		background-image: url(background/lightGrayGradientBackground.png);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after, body.is-resizing *, body.is-resizing *:before, body.is-resizing *:after {
