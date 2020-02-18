@@ -128,6 +128,18 @@ input, select, textarea {
 		line-height: 1.65;
 	}
 
+		@media screen and (max-width: 1920px) {
+
+			body, input, select, textarea {
+				font-size: 12pt;
+			}
+
+			#banner .mobile p {
+				display: none!important;
+			}
+
+		}
+
 		@media screen and (max-width: 1680px) {
 
 			body, input, select, textarea {
